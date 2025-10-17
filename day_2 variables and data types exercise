@@ -1,0 +1,12 @@
+# 'Day 2: 30 Days of python programming'
+first_name = "Newman"
+last_name = "Mvenge"
+full_name = "Newman Mvenge"
+country = "Zimbabwe"
+city = "Marondera"
+age = 18
+year = "2025"
+is_married = False
+is_true = True
+is_light_on = False
+first_name,last_name,full_name,country,city,age,year,is_married,is_true,is_light_on = "Newman","Mvenge","Newman Mvenge","Zimbabwe","Marondera",18,"2025",False,True,False

@@ -10,3 +10,70 @@ is_married = False
 is_true = True
 is_light_on = False
 first_name,last_name,full_name,country,city,age,year,is_married,is_true,is_light_on = "Newman","Mvenge","Newman Mvenge","Zimbabwe","Marondera",18,"2025",False,True,False
+
+print(first_name)
+print(last_name)
+print(full_name)
+print(country)
+print(city)
+print(age)
+print(year)
+print(is_married)
+print(is_true)
+print(is_light_on)
+print(first_name,last_name,full_name,country,city,age,year,is_married,is_true,is_light_on)
+#print(first_name)
+
+# types of data
+print(type(first_name))
+print(type(last_name))
+print(type(full_name))
+print(type(country))
+print(type(city))
+print(type(age))
+print(type(year))
+print(type(is_married))
+print(type(is_true))
+print(type(is_light_on))
+
+#len()
+print(len(first_name))
+
+
+num_one = 5
+num_two = 4
+
+total = num_one + num_two
+diff = num_one - num_two
+product = num_one * num_two
+division = num_one / num_two
+remainder = num_one % num_two
+exp = num_one ** num_two
+floor_division = num_one // num_two
+
+print(total)
+print(diff)
+print(product)
+print(division)
+print(remainder)
+print(exp)
+print(floor_division)
+
+#Circles
+radius = int(input("Enter a radius of 30m:"))
+area_of_circle = 3.14 * radius ** 2
+circum_of_circle = 2 * 3.14 * radius
+
+
+print(area_of_circle, "m**2")
+print(circum_of_circle, "m")
+
+first_name = input("What is your first name?:")
+last_name = input("What is your last name?:")
+country = input("What is your country?:")
+age = int(input("What is your age?:"))
+
+print(first_name)
+print(last_name)
+print(country)
+print(age)

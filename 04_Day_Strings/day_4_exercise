@@ -1,0 +1,108 @@
+print('Thirty '+'Days '+'Of '+'Python')
+print('Coding '+'For '+'All')
+
+company = "Coding For All"
+print(company)
+print(len(company))
+print(company.upper())
+print(company.lower())
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+print(company[7:])
+print(company.index('Coding'))
+print(company.replace('Coding','Learning'))
+python = "Python for Everyone"
+print(python.replace("Everyone","All"))
+print(company.split())
+tech_giants = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(tech_giants.split(', '))
+print(company[0])
+print(company[-1])
+print(company[10])
+'''p,f,e = python
+print(p)'''
+
+print(company.index('C'))
+print(company.index('F'))
+print(company.rfind('l'))
+
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+print(sentence.find('because'))
+print(sentence.rfind('because'))
+print(sentence.rindex('because'))
+print(sentence[31:55])
+print(sentence.index('because'))
+
+print(company.startswith('Coding'))
+print(company.endswith('Coding'))
+
+#company_2 = "\'   Coding For All      \'"
+#print(company_2.strip(''))
+
+python = '30DaysOfPython'
+print(python.isidentifier())
+
+python = 'thirty_days_of_python'
+print(python.isidentifier())
+
+python_libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print('# '.join(python_libraries))
+
+print('I am enjoying this challenge.\nI just wonder what is next.')
+
+print('Name\t    Age\t Country \tCity')
+print('Asabeneh\t250\t Finland\t Helsinki')
+
+'''Use the string formatting method to display the following:
+radius = 10
+area = 3.14 * radius ** 2
+The area of a circle with radius 10 is 314 meters square.'''
+
+radius = 10
+area = 3.14 * radius ** 2
+print('The area of a circle with radius {} is {} meters square.'.format(radius,area))
+
+'''Make the following using string formatting methods:
+8 + 6 = 14
+8 - 6 = 2
+8 * 6 = 48
+8 / 6 = 1.33
+8 % 6 = 2
+8 // 6 = 1
+8 ** 6 = 262144'''
+
+a = 8
+b = 6 
+print('{} + {} = {}' .format(a,b,a + b))
+print('{} - {} = {}' .format(a,b,a - b))
+print('{} * {} = {}' .format(a,b,a * b))
+print('{} / {} = {}' .format(a,b,a / b))
+print('{} % {} = {}' .format(a,b,a % b))
+print('{} // {} = {}' .format(a,b,a // b))
+print('{} ** {} = {}' .format(a,b,a ** b))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

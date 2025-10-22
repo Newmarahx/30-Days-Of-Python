@@ -1,0 +1,68 @@
+empty_list = []
+print('Empty list: ',empty_list)
+
+grocery_list = ['lotion','socks','sauce','spices','salt','sugar','tomatoes']
+print('Grocery list: ',grocery_list)
+print('Length of grocery list: ',len(grocery_list))
+
+first_item = grocery_list[0]
+middle_item = grocery_list[3]
+last_item = grocery_list[-1]
+
+print('First list item: ',first_item)
+print('Middle list item: ',middle_item)
+print('Last list item: ',last_item)
+
+mixed_data_types = ['Newman',18,175.25,False,'13602/1Ext Mbizo Kwekwe']
+name,age,height,marital_status,address = mixed_data_types
+print( 'Name: ',name,'\n',
+        'Age: ',age,'\n',
+        'Height: ',height,'cm\n',
+        'Married: ',marital_status,'\n',
+        'Address: ',address,)
+        
+it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle','Amazon']
+print('Big tech companies: ',it_companies)
+print('Number of Silicon Valley companies: ',len(it_companies))
+
+print('First company: ',it_companies[0])
+print('Middle company: ',it_companies[3])
+print('Last company: ',it_companies[-1])
+
+it_companies[-2] = 'Space X'
+print('Big tech companies: ',it_companies)
+it_companies.append('Klarna')
+print('Big tech companies: ',it_companies)
+it_companies.insert(2,'Oracle')
+print('Big tech companies: ',it_companies)
+it_companies[2] = 'Oracle'.upper()
+print('Big tech companies: ',it_companies)
+
+it_companies.extend('#')
+print('Big tech companies: ',it_companies)
+
+print('Google' in it_companies)
+it_companies.sort() 
+print('Big tech companies: ',it_companies)
+it_companies.sort(reverse=True)
+print('Big tech companies: ',it_companies)
+#it_companies[0:3]
+print('Big tech companies: ',it_companies[0:3])
+print('Big tech companies: ',it_companies[-3:])
+it_companies.pop(0)
+print('Big tech companies: ',it_companies)
+it_companies.pop(3)
+print('Big tech companies: ',it_companies)
+it_companies.pop(-1)
+print('Big tech companies: ',it_companies)
+it_companies.clear()
+print('Big tech companies: ',it_companies)
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+front_end.extend(back_end)
+print(front_end)
+
+front_end.insert(5,'Python')
+front_end.insert(6,'SQL')
+print(front_end)

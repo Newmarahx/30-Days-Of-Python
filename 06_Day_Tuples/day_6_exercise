@@ -1,0 +1,40 @@
+empty_tuple = ()
+sisters = ('Tsungai','Makanaka')
+brothers = ('Ryan','Denzel','Dylan','Dinel')
+siblings = sisters + brothers
+print('Number of siblings: ',len(siblings))
+siblings = list(siblings)
+parents = ['Edward','Evidence']
+#siblings.append(parents)
+family_members = siblings + parents
+print('Name of family members: ',family_members)
+
+
+parents = family_members[-2:]
+siblings = family_members[0:6]
+print('List of siblings: ',siblings)
+print('List of parents: ',parents)
+#print(family_members.index('Evidence'))
+
+
+fruits = ('guava','matohwe','tsubvu','makwakwa','matamba')
+vegetables = ('tomatoes','covo','spinach','onion','garlic')
+animal_products = ('milk','meat','eggs','pelt','hides')
+food_stuff_tp = fruits + vegetables + animal_products
+print('Edibles and raw materials: ',food_stuff_tp)
+
+food_stuff_lt = food_stuff_tp
+middle_item = food_stuff_lt[8]
+print('Middle item: ',middle_item)
+
+first_three = food_stuff_lt[0:3]
+last_three = food_stuff_lt[-3:]
+print('First three items: ',first_three)
+print('Last three items: ',last_three)
+
+del food_stuff_tp
+print('Deleted tuple: ',food_stuff_tp)
+
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+print('Is Estonia a nordic country: ','Estonia' in nordic_countries)
+print('Is Iceland a nordic country: ','Iceland' in nordic_countries)

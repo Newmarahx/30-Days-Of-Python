@@ -1,0 +1,37 @@
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+A = {19, 22, 24, 20, 25, 26}
+B = {19, 22, 20, 25, 26, 24, 28, 27}
+age = [22, 19, 24, 25, 26, 24, 25, 24]
+
+print("Number of IT companies: ",len(it_companies))
+twitter = it_companies.add('Twitter')
+added_companies = it_companies.update(['Github','Klarna','Meta'])
+removed_companies = it_companies.discard('Meta')
+print("Silicon Valley IT companies: ",it_companies)
+
+
+union = A.union(B)
+print("Joined sets: ",union)
+intersection = A.intersection(B)
+print("Intersected sets: ",intersection)
+subset = A.issubset(B)
+print("Is A a subset of B:",subset)
+disjoint = A.isdisjoint(B)
+print("Are A and B disjoint: ",disjoint)
+symmetric_difference = A.symmetric_difference(B)
+print("Symmetric difference between A and B:",symmetric_difference)
+cleared_set = union.clear() 
+print("A cleared set: ",cleared_set)
+
+age = set(age)
+list_age = len(list(age))
+len(age)
+
+print("Length of age set: ",len(age))
+print("Length of age list: ",list_age)
+
+unique_words = "I am a teacher and I love to inspire and teach people."
+unique_word = unique_words.split()
+_set = set(unique_word) 
+print("Unique words: ",_set)
+

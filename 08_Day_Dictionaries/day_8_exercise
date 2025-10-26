@@ -1,0 +1,40 @@
+dog = {}
+print('Empty dictionary: ',dog)
+dog['name'] = 'Bruno'
+dog['color'] = 'brown'
+dog['breed'] = 'Pitbull'
+dog['legs'] = 'short'
+dog['age'] = 12
+print('A dog dictionary: ',dog)
+
+student_dictionary = {
+    'First name':'Marioh',
+    'Last name':'Chatanga',
+    'Gender':'Male',
+    'Age':18,
+    'Marital status':'Single',
+    'Skills':['Rust','HTML','Marimba','Dance'],
+    'City':'Chiredzi',
+    'address':{
+        'Street':'Jason Moyo',
+        'House number':'547 Shwede'
+    }
+    }
+print("A student dictionary: ",student_dictionary)
+print("Length of dictionary: ",len(student_dictionary))
+value = student_dictionary.get('Skills')
+print("Value of skills: ",value)
+print("Data type of skill: ",type(value))
+student_dictionary['Skills'].append('Python')
+student_dictionary['Skills'].append('Video editing')
+print("New skillset: ",student_dictionary['Skills'])
+keys_list = student_dictionary.keys()
+values_list = student_dictionary.values()
+print("Dictionary keys as list: ",keys_list)
+print("Dictionary values as list: ",values_list)
+student_tuple = student_dictionary.items()
+print("Dictionary to tuple: ",student_tuple)
+del student_dictionary['Skills']
+print("Deleted skills from a dictionary: ",student_dictionary)
+del dog
+#print("Deleted dog dictionary: ",dog)
